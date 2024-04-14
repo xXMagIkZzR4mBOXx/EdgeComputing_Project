@@ -11,11 +11,7 @@ The project is structured to accomplish two primary tasks:
 ### Technologies Used
 - Docker
 - Ubuntu
-- Python
-
-## Getting Started
-
-These instructions will guide you through setting up the project on your local machine for development and testing purposes.
+- Python3
 
 ### Prerequisites
 
