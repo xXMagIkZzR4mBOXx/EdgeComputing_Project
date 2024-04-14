@@ -24,7 +24,7 @@ Ensure Docker is installed on your system. You can download it from [Docker's of
 Start by cloning this repository to get all the necessary project files.
 
 ```bash
-git clone https://github.com/yourusername/EdgeComputing_Project.git
+git clone https://github.com/xXMagIkZzR4mBOXx/EdgeComputing_Project.git
 cd EdgeComputing_Project
 ```
 ## Dockerfile Descriptions
