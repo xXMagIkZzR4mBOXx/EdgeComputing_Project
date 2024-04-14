@@ -1,6 +1,6 @@
 # Edge Computing Project
 
-This repository contains the resources and instructions for setting up an edge computing environment using Docker. The focus is on demonstrating basic Docker virtualization and Docker networking within the context of an educational project.
+This repository contains the resources and instructions for setting up an edge computing environment using Docker. The focus is on demonstrating basic Docker virtualization and Docker networking within the context of an educational project in the Advances in Wireless Networking module given by the School of Computer Science of University College Dublin.
 
 ## Project Overview
 
