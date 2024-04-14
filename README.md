@@ -13,11 +13,36 @@ The project is structured to accomplish two primary tasks:
 - Ubuntu
 - Python3
 
+## Python Scripts Description
+
+### Client File : `ipc_client_csv.py`
+
+This Python script is designed to run within the client Docker container. It handles:
+- Reading data from a specified CSV file.
+- Connecting to the server using sockets.
+- Sending CSV data to the server for processing.
+- Optionally, it can receive and print responses from the server.
+
+#### Functionality
+- **Read CSV**: The script reads a CSV file to extract data that needs to be processed.
+- **Socket Communication**: Establishes a socket connection with the server and sends data line by line.
+- **Receive Responses**: Listens for responses from the server after sending data.
+
+### Server File : `ipc_server_csv.py`
+
+This script runs within the server Docker container and is responsible for:
+- Receiving data sent by the client over a socket connection.
+- Processing the data, which could involve calculations or database operations.
+- Sending back responses to the client after processing.
+
+#### Functionality
+- **Receive Data**: Listens on a socket for incoming data from the client.
+- **Process Data**: Performs necessary operations on the received data.
+- **Send Response**: Sends a processed response back to the client.
+- 
 ### Prerequisites
 
 Ensure Docker is installed on your system. You can download it from [Docker's official website](https://www.docker.com/products/docker-desktop).
-
-
 
 #### Clone the Repository
 
