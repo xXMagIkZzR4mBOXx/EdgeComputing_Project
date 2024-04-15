@@ -39,7 +39,7 @@ This script runs within the server Docker container and is responsible for:
 - **Process Data**: Performs necessary operations on the received data.
 - **Stats Computation**: Computes mean, median and standard deviation of each column data.
 - **Send Response**: Sends a processed response back to the client, containing the statistical results of the received client data.
-- 
+
 ### Prerequisites
 
 Ensure Docker is installed on your system. You can download it from [Docker's official website](https://www.docker.com/products/docker-desktop).
