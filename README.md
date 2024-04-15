@@ -27,7 +27,6 @@ This Python script is designed to run within the client Docker container. It han
 - **Read CSV**: The script reads a CSV file to extract data that needs to be processed.
 - **Socket Communication**: Establishes a socket connection with the server and sends data line by line.
 - **Receive Responses**: Listens for responses from the server after sending data.
-
 ### Server File : `ipc_server_csv.py`
 
 This script runs within the server Docker container and is responsible for:
@@ -38,7 +37,8 @@ This script runs within the server Docker container and is responsible for:
 #### Functionality
 - **Receive Data**: Listens on a socket for incoming data from the client.
 - **Process Data**: Performs necessary operations on the received data.
-- **Send Response**: Sends a processed response back to the client.
+- **Stats Computation**: Computes mean, median and standard deviation of each column data.
+- **Send Response**: Sends a processed response back to the client, containing the statistical results of the received client data.
 - 
 ### Prerequisites
 
